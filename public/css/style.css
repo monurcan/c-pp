@@ -1,0 +1,211 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}a{text-decoration:none;color:inherit}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 61px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.container {
+	width: 1000px;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+	position:relative;
+	height: auto;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	padding-top: 11px;
+	height: 50px;
+	width: 100%;
+	background: #fff;
+	outline: 2px solid rgba(0, 0, 0, .1);
+}
+
+header .container * {
+	float: left;
+}
+
+header .logo {
+	background: url(../img/logo.png) no-repeat;
+	width: 86px;
+	height: 38px;
+	margin-right: 40px;
+}
+
+header .logo:after {
+	content: "";
+	width: 1px;
+	height: 100%;
+	background: #d1d1d1;
+	display: block;
+	float: right;
+	margin-right: -17px;
+}
+
+header .menu hr {
+	width: 100%;
+	border: 0;
+	border-top: 1px solid #eaeaea;
+	margin: 0;
+}
+
+header .menu > li {
+	font-weight: 600;
+	margin-top: 14px;
+	margin-right: 30px;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+header .menu li, header .menu li a {
+	color: #282828;
+}
+
+header .menu li.drop .drop {
+	display: none;
+	position: absolute;
+	margin-top: 24px;
+	margin-left: -20px;
+	width: 200px;
+	background: #fff;
+	z-index: 1;
+	border-left: 1px solid rgba(0, 0, 0, .1); 
+    border-right: 1px solid rgba(0, 0, 0, .1); 
+}
+
+header .menu li.drop .drop:after {
+	content: "";
+	width: 100%;
+	height: 2px;
+	display: block;
+	position: absolute;
+	left: -1px;
+	padding: 1px;
+	bottom: 0;
+	border-bottom: 4px solid #4cb6f1;
+}
+
+header .menu li.drop .drop li {
+	padding: 15px;
+	padding-right: 0;
+	width: 185px;
+}
+
+header .menu li.drop .drop li:hover {
+	background: #eaeaea;
+}
+
+header input {
+	position: absolute;
+	right: 0;
+	width: 187px;
+	height: 29px;
+	border: 1px solid #d6d6d6;
+	border-radius: 20px;
+	padding: 0 15px;
+	margin-top: 5px;
+	color: #5e5b5b;
+	font-size: 12px;
+}
+
+header input:hover {
+	border-color: #c1c1c1;
+}
+
+header input:focus {
+	outline: 0;
+	border-color: #2fb7e4;
+}
+
+.ne {
+	padding-top: 72px;
+	height: 280px;
+	text-align: center;
+	color: #fff;
+	background: #3498db;
+	background: -moz-linear-gradient(45deg,  #3498db 3%, #3498db 4%, #23b8a0 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(3%,#3498db), color-stop(4%,#3498db), color-stop(100%,#23b8a0));
+	background: -webkit-linear-gradient(45deg,  #3498db 3%,#3498db 4%,#23b8a0 100%);
+	background: -o-linear-gradient(45deg,  #3498db 3%,#3498db 4%,#23b8a0 100%);
+	background: -ms-linear-gradient(45deg,  #3498db 3%,#3498db 4%,#23b8a0 100%);
+	background: linear-gradient(45deg,  #3498db 3%,#3498db 4%,#23b8a0 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3498db', endColorstr='#23b8a0',GradientType=1 );
+	font-size: 15px;
+}
+
+#wr {
+	background: #fff;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 300px;
+}
+
+footer {
+	-webkit-box-shadow: inset 0px 28px 47px -15px rgba(0,0,0,0.65);
+	-moz-box-shadow: inset 0px 28px 47px -15px rgba(0,0,0,0.65);
+	box-shadow: inset 0px 28px 47px -15px rgba(0,0,0,0.65);
+	padding-top: 70px;
+    height: 230px;
+	color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: #3F4245;
+}
+footer a {
+	color: #fff;
+	padding-bottom: 2px;
+}
+
+footer a:hover {
+	border-bottom: 1px dotted #fff;
+}
+
+footer .container h4 {
+	font-weight: 600;
+	font-size: 19px;
+	margin-bottom: 13px;
+}
+
+footer .container span {
+	font-size: 15px;
+	width: 480px;
+	display: block;
+	line-height: 22px;
+}
+
+footer .container span > span {
+	display: block;
+	font-size: 11px;
+	line-height: 15px;
+	margin-top: 14px;
+}
+
+footer .l {
+	float: left;
+	width: 500px;
+}
+
+footer .r {
+	float: right;
+	width: 480px;
+}
+
+footer .r li {
+	float: left;
+	width: 200px;
+	margin-right: -40px;
+}
+
+footer .r h4 {
+	color: #1485c3;
+}
+
+footer .r span {
+	margin-bottom: 5px;
+}

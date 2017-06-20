@@ -1,0 +1,16 @@
+<div class=ne><div class=container>Geliştirici Blogu<a href="/blog/rss">RSS</a></div></div>
+<div class="container">
+{{#posts}}
+<article {{#fs}}class="fs"{{/fs}}>
+<span>{{date}}</span>
+<h3>
+	{{#fs}}{{title}}{{/fs}}
+	{{^fs}}<a href="/blog/{{id}}">{{title}}</a>{{/fs}}
+</h3>
+<div class="p">{{{content}}}</div>
+</article>
+{{/posts}}
+{{#fs}}
+	<a href="/blog" class="aleft">Blogtaki Tüm Yazılar</a>
+{{/fs}}
+</div>

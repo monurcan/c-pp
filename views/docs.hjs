@@ -1,0 +1,11 @@
+<div class=ne><div class=container>{{titlex}}<span>v1.0</span></div></div>
+<div class="container">
+<div class="left">
+	{{{menu}}}
+</div>
+<article>
+<h3><a href="#">{{ctitle}}</a></h3>
+<div class="p">{{{content}}}</div>
+</article>
+<div style="clear:both"></div>
+</div>

@@ -1,0 +1,30 @@
+<div class=ne><div class=container><h1>Ç++ ile Türkçe programlama</h1><p>Ç++ <b>terminal</b> ve <b>web</b> üzerinde çalışan yorumlayıcı dildir. Ç++’ı kütüphaneler yazmak, basit betikler veya web uygulamalarınız için kullanabilirsiniz. Hız ve kullanım kolaylığı konusunda Ç++’a güvenin!</p><a href=/downloads><span>&#8677;</span><div>Ç++ GELİŞTİRME ORTAMINI İNDİR</div></a><span>GÜNCEL KARARLI SÜRÜM: Ç++ 1.0.5</span></div></div><div class=news><div class=container><a href=/blog><b>blog.çpp.org</b></a> &nbsp;<a href=/blog/5599e479d0e8b4328659d323>Benchmarklar ve hız karşılaştırmalarında Ç++ başarısı</a></div></div><div class=ntsh><div class=container><h3>Kısaca Ç++</h3><p>Ç++’ın belli başlı özellikleri.</p><div><h4>Özlüdür</h4><p>Normalde sizin yazmanız gereken temel kod miktarını büyük ölçüde azaltır. Zaten yazacağınız kodları Ç++ kendi yazar.</p></div><div><h4>Çok Yönlüdür</h4><p>Aynı dil ile sunucu taraflı uygulamalar yazabilir ve terminal programları kodlayabilirsiniz. Farklı dillerle zaman kaybetmezsiniz.</p></div><div><h4>Uyumludur</h4><p>JavaScript üzerinde çalışan uygulama ve kütüphanelerin tümü Ç++ ile de çalışabilir. Böylece daha fazla hazır içeriğe ulaşabilirsiniz.</p></div><div><h4>Türkçedir</h4><p>Ana dilinizde kod yazmanın keyfine varın. Ç++ tamamen Türkçe’dir ve dilimiz gibi sondan eklemeli bir söz dizimine sahiptir.</p></div><div><h4>Hızlıdır</h4><p>Gereksiz fonksiyonlara Ç++’da yer yok. Verimlilik esasına dayanan Ç++ diğer dillere kıyasla benchmarklarda çok daha hızlıdır.</p></div><div><h4>Öğrenmesi Kolaydır</h4><p>Ç++’ı öğrenmek en fazla bir haftanızı alacaktır. Ayrıca JavaScript’e benzer söz dizimiyle programcılar için kolaylık sağlar.</p></div></div></div><div style=clear:both></div><div class=fm><div class=container><hr><h3>Türkçe programlama</h3><p>Ç++ ile tamamen Türkçe kodlama yapın.</p>
+<pre contenteditable=true>
+<span class="t">değişken</span> onurcan = <span class=b>"Deneme"</span>;
+<span class="t">değişken</span> onurcan2 = <span class=n>2</span> <span class=co>+</span> <span class=b>"Deneme!"</span>;
+
+<span class=b>"Türkçe Programlama Dili! #onurcan2 Değişkenden Gelen"</span> bas; <span class=c>// Ekrana 'Türkçe Programlama Dili! 2Deneme! Değişkenden Gelen' uyarısı getirir</span>
+<span class=b>"Onurcan "</span> yaz; <span class=c>// Dökümana 'Onurcan ' yazar.</span>
+
+<span class=co>eğer</span>(<span class=n>1 <span class=co>==</span> 2</span>){ <span class=c>// Türkçe koşul ifadesi (1, 2'ye eşitse koşulu)</span>
+&nbsp;&nbsp;&nbsp;<span class=b>"1, 2'ye eşittir"</span> yaz;
+}<span class=co>fakat</span>(<span class=n>1 <span class=co>==</span> 3</span>){ <span class=c>// Türkçe koşul ifadesi (1, 3'e eşitse koşulu)</span>
+&nbsp;&nbsp;&nbsp;<span class=b>"1, 3'e eşittir"</span> yaz;
+}<span class=co>değilse</span> { <span class=c>// Türkçe koşul ifadesi (1, 2 veya 3'e eşit değilse, hiçbiri değilse)</span>
+&nbsp;&nbsp;&nbsp;<span class=b>"1, 2 veya 3'e eşit değildir"</span> yaz;
+}</pre>
+<div class=rn><span>Kodu Derle</span>></div></div></div><div style=clear:both></div><div class="fm comp"><div class=container><hr><h3>Ç++ yeni, fakat tanıdık</h3><p>JavaScript geliştiricisiyseniz zaten Ç++ biliyorsunuz demektir.</p><pre>
+			<span class=b>"Türkçe Programlama Dili!"</span> bas; <span class=c>// Ekrana 'Türkçe Programlama Dili!' uyarısı getirir</span>
+			<span class=b>"Onurcan "</span> yaz; <span class=c>// Dökümana 'Onurcan ' yazar.</span>
+
+			<span class=co>eğer</span>(<span class=n>1 <span class=co>==</span> 1</span>){ <span class=c>// Türkçe koşul ifadesi (1, 1'e eşitse koşulu)</span>
+			   <span class=b>"1, 1'e eşittir"</span> yaz;
+			}
+		</pre><pre>
+			alert(<span class=b>"Türkçe Programlama Dili!"</span>); <span class=c>// Ekrana 'Türkçe Programlama Dili!' uyarısı getirir</span>
+			document.write(<span class=b>"Onurcan "</span>); <span class=c>// Dökümana 'Onurcan ' yazar.</span>
+
+			<span class=co>if</span>(<span class=n>1 <span class=co>==</span> 1</span>){ <span class=c>// Koşul ifadesi (1, 1'e eşitse koşulu)</span>
+			   document.write(<span class=b>"1, 1'e eşittir"</span>);
+			}
+		</pre><ul class=comp><li class=active>Ç++</li><li>JavaScript</li></ul></div></div><div style=clear:both></div><div class="fm compi"><div class=container><hr><h3>Ç++ editörleri üretken olmanızı sağlar</h3><p><a href=#>Ç++ Online Editör</a> ile kolaylıkla Ç++ programları yazabilir ve tarayıcınız üzerinde derleyebilirsiniz. Masaüstünde yazmak isterseniz de <a href=#>Ç++ eklentileri</a>ni Sublime Text, WebStorm gibi kod editörleri üzerinde kullanabilirsiniz.</p><br><br><img src=/img/editor.png><img src=/img/ide.png><ul class=compi><li class=active></li><li></li></ul></div></div><div style=clear:both></div><div class=fm><div class=container><hr><h3>Ç++ geliştirici topluluğu</h3><p>Soru veya önerilerinizi <a href=#>Google grubumuza</a> gönderin veya irc.freenode.net adresindeki #ç++ IRC kanalımıza göz atın. Ayrıca Ç++ açık kaynak kodlu olduğundan <a href=#>Github</a> üzerinden de dili geliştirebilirsiniz.</p></div></div><div style=clear:both></div><div class=dw><div class=container><a href=/downloads><span>&#8677;</span><div>Ç++ Geliştirme Ortamını İndir</div></a><span>Güncel kararlı sürüm: Ç++ 1.0.5</span></div></div><br><br><br><br><br><br><br>

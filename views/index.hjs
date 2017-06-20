@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ title }}</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' href='/css/style.css' />
+	{{#style}}
+  	<link rel='stylesheet' href='/css/{{style}}.css' />
+	{{/style}}
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  	<script src="/js/script.js"></script>
+	{{#script}}
+  	<script src="/js/{{script}}.js"></script>
+	{{/script}}</head>
+<body>
+	<div id="wr">
+	<header><div class="container">
+		<a href="/"><div class="logo"></div></a>
+		<ul class="menu">
+			<li class="drop">BAŞLARKEN &nbsp;&#x25BE;
+				<ul class="drop">
+					<li><a href="#">Dakikalar İçinde Öğrenin</a></li>
+					<li><a href="#">Tarayıcınızda Deneyin!</a></li>
+					<li><a href="/downloads">İndirmeler</a></li>
+				</ul>
+			</li>
+			<li class="drop">TEMELLER &nbsp;&#x25BE;
+				<ul class="drop">
+					<li><a href="#">Dil Turu</a></li>
+					<li><a href="#">Yeni Başlayanlar İçin</a></li>
+					<li><a href="#">Programcılar İçin</a></li>
+					<hr>
+					<li><a href="#">Yardım Videoları</a></li>
+					<li><a href="#">Makaleler</a></li>
+					<hr>
+					<li><a href="#">SSS</a></li>
+				</ul>
+			</li>
+			<li class="drop">WEB İÇİN &nbsp;&#x25BE;
+				<ul class="drop">
+					<li><a href="#">Kurulum</a></li>
+					<li><a href="#">Dökümantasyon</a></li>
+					<li><a href="/downloads">İndirmeler</a></li>
+					<hr>
+					<li><a href="#">Yardım Videoları</a></li>
+					<li><a href="#">Makaleler</a></li>
+				</ul>
+			</li>
+			<li><a href="/blog">BLOG</a></li>
+			<li><a href="/doc">DÖKÜMANTASYON</a></li>
+		</ul>
+		<form action="/search" method="get">
+			<input type="text" name="src" placeholder="Arama yap...">
+		</form>
+	</div></header>
+	{{>content}}
+	</div>
+	<footer>
+		<div class="container">
+			<div class="l"><h4>TÜRKÇE PROGRAMLAMA DİLİ</h4>
+			<span>Ç++, geliştirilme sürecinde olan JavaScript tabanlı ve <a href="https://github.com/monurcan">açık kaynak kodlu</a> yorumlayıcı dildir.<span>Bu sayfa tasarım ve içeriği Creative Commons Attribution 3.0 Lisansıyla koruma altına alınmıştır ve kod örnekleri BSD lisansı ile lisanlanmıştır.</span></span></div>
+			<ul class="r">
+				<li>
+					<h4>TOPLULUK</h4>
+					<span><a href="#">Uzman Cevap</a></span>
+					<span><a href="#">Facebook</a></span>
+					<span><a href="#">Twitter</a></span>
+					<span><a href="#">G+ topluluğu</a></span>
+					<span><a href="#">Github</a></span>
+				</li>
+				<li>
+					<h4>KAYNAKLAR</h4>
+					<span><a href="#">Onurcan KAYA</a></span>
+					<span><a href="#">Doğukan AKAR</a></span>
+					<span><a href="#">Twitter</a></span>
+					<span><a href="#">G+ topluluğu</a></span>
+					<span><a href="#">Github</a></span>
+				</li>
+				<li>
+					<h4>HAKKINDA</h4>
+					<span><a href="#">Nedir?</a></span>
+					<span><a href="#">Neden?</a></span>
+					<span><a href="#">Nasıl?</a></span>
+					<span><a href="#">İletişim</a></span>
+				</li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
