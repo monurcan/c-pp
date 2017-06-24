@@ -1,6 +1,6 @@
 # c-pp
 
-**mongoDB**
+**mongoDB** (raw halinden kaydedin)
 
 **posts**
 
